@@ -1,0 +1,250 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  background: white;
+}
+
+.name{
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+  font-size: 32;
+}
+
+.button{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  color: grey;
+  border-radius: 12px;
+}
+
+.section_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #963A7A;
+}
+
+#about{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+}
+
+.hi{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 32;
+}
+
+.main_bio{
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+#socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 33.33%;
+  padding: 20px;
+}
+
+.photo img{
+  width: 100%;
+  resize: contain;
+}
+
+.logo img{
+  width: 60px;
+  margin: 7px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  margin: 7px;
+  border-radius: 15px;
+}
+
+.section_2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: #CC86C3;
+  padding-bottom: 30px;
+}
+
+#music_about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music_title{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 32;
+}
+
+.music_bio{
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  width: 500px;
+  text-align: center;
+}
+
+#music_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column_1{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  background-color: #CC86C3;
+  margin-top: 30px;
+}
+
+.performances_title{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 32;
+}
+
+.latest_performances{
+  margin: 10px;
+}
+
+.latest_performances img{
+  width: 20vw;
+  height: 20vh;
+}
+
+.upcoming_shows{
+  margin: 10px;
+}
+
+.upcoming_shows img{
+  width: 20vw;
+  height: 20vh;
+}
+
+.column_2{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  background-color: #CC86C3;
+  margin-top: 30px;
+}
+
+.shows_title{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 32;
+}
+
+.section_3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #963A7A;
+}
+
+.video_headings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video_title{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 32;
+}
+
+.video_bio{
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  margin: 5px;
+  padding-bottom: 5px;
+  width: 450px;
+  text-align: center;
+}
+
+.video_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#content_1{
+  display: flex;
+  flex-direction: row;
+}
+
+#content_2{
+  display: flex;
+  flex-direction: row;
+}
+
+.video_thumbnail{
+  width: 350px;
+  overflow: hidden;
+  margin: 10px;
+  margin-top: -5px;
+}
+
+.video_thumbnail img{
+  width: 100%;
+}
+
+.video_button{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  color: grey;
+  border-radius: 12px;
+
+}
+
+.see_more{
+  width: 80px;
+  height: 30px;
+  margin: 5px;
+  font-family: 'PT Sans', sans-serif;
+  color: grey;
+  border-radius: 12px;
+}
